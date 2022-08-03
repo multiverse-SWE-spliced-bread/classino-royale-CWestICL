@@ -5,7 +5,7 @@ class Die {
             this.sides = sides;
         }
         else {
-            throw new Error("Sides must be greater than 3 and less than 21")
+            throw new Error("Sides must be greater than 3 and less than 21");
         }
     }
     roll() {
